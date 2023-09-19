@@ -3,8 +3,11 @@
 
 <head>
 	<title>mycuber</title>
-	<link rel="stylesheet" href="css/swiper-bundle.min.css">
-	<link rel="stylesheet" href="css/style.css">
+
+	<?php wp_head(); ?>
+	
+	<!-- <link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/style.css"> -->
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 	<meta name="viewport" content="width=device-width">
 </head>

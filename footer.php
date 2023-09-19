@@ -4,11 +4,11 @@
 					<div class="footer__logo">
 						<div class="footer__logo-item footer__logo-item-main-logo">
 							<a href="#">
-								<img src="img/Logo.png" alt="">
+								<img src="img/Logo.png" alt="logo">
 							</a>
 						</div>
 						<div class="footer__logo-item">
-							<img src="img/CD_Projekt_logo1.svg" alt="">
+							<img src="img/CD_Projekt_logo1.svg" alt="CD_Projekt logo">
 						</div>
 						
 					</div>
