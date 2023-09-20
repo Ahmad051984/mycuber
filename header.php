@@ -20,32 +20,39 @@
 					<div class="header__row">
 						<div class="header__logo">
 							<a href="#">
-								<img src="img/Logo.png" alt="Logo">
+								<img src="<?php bloginfo('template_url'); ?>/assets/img/
+Logo.png" alt="Logo">
 							</a>
 						</div>
 						<ul class="header__icons">
 							<li class="header__items">
-								<a href=""><img src="img/icons/youtube-logo.svg" alt="youtube-logo"></a>
+								<a href=""><img src="<?php bloginfo('template_url'); ?>/assets/img/
+icons/youtube-logo.svg" alt="youtube-logo"></a>
 							</li>
 							<li class="header__items">
-								<a href=""><img src="img/icons/vk-logo.svg" alt="vk-logo"></a>
+								<a href=""><img src="<?php bloginfo('template_url'); ?>/assets/img/
+icons/vk-logo.svg" alt="vk-logo"></a>
 							</li>
 							<li class="header__items">
-								<a href=""><img src="img/icons/facebook-logo.svg" alt="facebook-logo"></a>
+								<a href=""><img src="<?php bloginfo('template_url'); ?>/assets/img/
+icons/facebook-logo.svg" alt="facebook-logo"></a>
 							</li>
 							<li class="header__items">
-								<a href=""><img src="img/icons/twitter-logo.svg" alt="twitter-logo"></a>
+								<a href=""><img src="<?php bloginfo('template_url'); ?>/assets/img/
+icons/twitter-logo.svg" alt="twitter-logo"></a>
 							</li>
 							<li class="header__items">
-								<a href=""><img src="img/icons/twitch-logo.svg" alt="twitch-logo"></a>
+								<a href=""><img src="<?php bloginfo('template_url'); ?>/assets/img/
+icons/twitch-logo.svg" alt="twitch-logo"></a>
 							</li>
 							<li class="header__items">
-								<a href=""><img src="img/icons/instagram-logo.svg" alt="instagram-logo"></a>
+								<a href=""><img src="<?php bloginfo('template_url'); ?>/assets/img/
+icons/instagram-logo.svg" alt="instagram-logo"></a>
 							</li>
 						</ul>
 					</div>
 					<div class="header__sticker-row">
-						<div class="header__sticker" style="background-image: url(img/Rectangle\ 59.svg);">
+						<div class="header__sticker" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/Rectangle59.svg);">
 							<div class="header__title title">Доступно на всех платформах</div>
 							<button class="header__btn btn">
 								<span>Узнать больше</span>
@@ -58,13 +65,16 @@
 			<div class="swiper mySwiper">
 				<div class="swiper-wrapper">
 				  <div class="swiper-slide">
-					<img src="img/Slider1920/s1.jpg" alt="slide-1">
+					<img src="<?php bloginfo('template_url'); ?>/assets/img/
+Slider1920/s1.jpg" alt="slide-1">
 				  </div>
 				  <div class="swiper-slide">
-					<img src="img/Slider1920/s2.jpg" alt="slide-2">
+					<img src="<?php bloginfo('template_url'); ?>/assets/img/
+Slider1920/s2.jpg" alt="slide-2">
 				  </div>
 				  <div class="swiper-slide">
-					<img src="img/Slider1920/s3.jpg" alt="slide-3">
+					<img src="<?php bloginfo('template_url'); ?>/assets/img/
+Slider1920/s3.jpg" alt="slide-3">
 				  </div>
 				</div>
 			</div>

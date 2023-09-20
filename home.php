@@ -13,31 +13,31 @@ Template Name: home
 						<div class="about__row">
 							<div class="about__small-images">
 								<picture>
-									<source srcset="img/block-2/image1-320.png" type="image/png" media="(max-width: 350px)">
-									<img src="img/block-2/image1.png" alt="sity">
+									<source srcset="<?php bloginfo('template_url'); ?>/assets/img/block-2/image1-320.png" type="image/png" media="(max-width: 350px)">
+									<img src="<?php bloginfo('template_url'); ?>/assets/img/block-2/image1.png" alt="sity">
 								</picture>
 								<picture>
-									<source srcset="img/block-2/image2-320.png" type="image/png" media="(max-width: 350px)">
-									<img src="img/block-2/image2.png" alt="sity">
+									<source srcset="<?php bloginfo('template_url'); ?>/assets/img/block-2/image2-320.png" type="image/png" media="(max-width: 350px)">
+									<img src="<?php bloginfo('template_url'); ?>/assets/img/block-2/image2.png" alt="sity">
 								</picture>
 							</div>
 							<div class="about__big-image">
 								<picture>
-									<source srcset="img/block-2/image3-320.png" type="image/png" media="(max-width: 350px)">
-									<source srcset="img/block-2/image3-1024.png" type="image/png" media="(max-width: 1350px)">
-									<img src="img/block-2/image3.png" alt="sity">
+									<source srcset="<?php bloginfo('template_url'); ?>/assets/img/block-2/image3-320.png" type="image/png" media="(max-width: 350px)">
+									<source srcset="<?php bloginfo('template_url'); ?>/assets/img/block-2/image3-1024.png" type="image/png" media="(max-width: 1350px)">
+									<img src="<?php bloginfo('template_url'); ?>/assets/img/block-2/image3.png" alt="sity">
 								</picture>
 							</div>
 						</div>
 					</div>
 			</section>
 
-			<div class="divider1" style="background-image: url(img/divider1.png);"></div>
+			<div class="divider1" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/divider1.png);"></div>
 			
 			<section class="play">
 				<div class="container">
 					<div class="play__title-row">
-						<div class="play__sticker" style="background-image: url(img/block-3/sticker.svg);">
+						<div class="play__sticker" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/block-3/sticker.svg);">
 							<span>акция</span>
 						</div>
 						<h2 class="play__title title">Играй и выигрывай!</h2>
@@ -59,33 +59,33 @@ Template Name: home
 						</form>
 						<div class="play__images">
 							<div class="play__image">
-								<img src="img/block-3/x-box.png" alt="">
+								<img src="<?php bloginfo('template_url'); ?>/assets/img/block-3/x-box.png" alt="">
 							</div>
 							<div class="play__image play__image-rigth">
-								<img src="img/block-3/PS5.png" alt="">
+								<img src="<?php bloginfo('template_url'); ?>/assets/img/block-3/PS5.png" alt="">
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<div class="divider2" style="background-image: url(img/divivder2.png);"></div>
+			<div class="divider2" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/divivder2.png);"></div>
 
 			<section class="hp">
 				<div class="container">
 					<div class="hp__row">
 						<div class="hp__main-images">
 							<div class="hp__big-image">
-								<img src="img/block-4/monitor.png" alt="">
+								<img src="<?php bloginfo('template_url'); ?>/assets/img/block-4/monitor.png" alt="">
 							</div>
 							<div class="hp__logo-icons">
 								<div>
-									<img class="hp__logo-icon" src="img/block-4/hp-2Logo.svg" alt="">
+									<img class="hp__logo-icon" src="<?php bloginfo('template_url'); ?>/assets/img/block-4/hp-2Logo.svg" alt="">
 								</div>
 								<div>
-									<img class="hp__logo-icon" src="img/block-4/cross.svg" alt="">
+									<img class="hp__logo-icon" src="<?php bloginfo('template_url'); ?>/assets/img/block-4/cross.svg" alt="">
 								</div>
 								<div>
-									<img class="hp__logo-icon" src="img/Logo.png" alt="">
+									<img class="hp__logo-icon" src="<?php bloginfo('template_url'); ?>/assets/img/Logo.png" alt="">
 								</div>
 								</div>
 						</div>
@@ -106,7 +106,7 @@ Template Name: home
 
 			<section class="purchase">
 				<div class="purchase__image">
-					<img src="img/purchase/big-img.jpg" alt="image">
+					<img src="<?php bloginfo('template_url'); ?>/assets/img/purchase/big-img.jpg" alt="image">
 				</div>
 				<div class="purchase__description">
 					<h2 class="purchase__title title">Купить игру<br> Cyberpunk 2077</h2>
@@ -120,24 +120,24 @@ Template Name: home
 					<div class="purchase__platform-box">
 						<div class="purchase__platform-box-item">
 							<a href="#">
-								<img src="img/purchase/pc.svg" alt="PC">
+								<img src="<?php bloginfo('template_url'); ?>/assets/img/purchase/pc.svg" alt="PC">
 							</a>
 						</div>
 						<div class="purchase__platform-box-item">
 							<a href="#">
-								<img src="img/purchase/xbox.svg" alt="xbox">
+								<img src="<?php bloginfo('template_url'); ?>/assets/img/purchase/xbox.svg" alt="xbox">
 							</a>
 						</div>
 					</div>
 					<div class="purchase__platform-box">
 						<div class="purchase__platform-box-item">
 							<a href="#">
-								<img src="img/purchase/stadia.svg" alt="stadia">
+								<img src="<?php bloginfo('template_url'); ?>/assets/img/purchase/stadia.svg" alt="stadia">
 							</a>
 						</div>
 						<div class="purchase__platform-box-item">
 							<a href="#">
-								<img src="img/purchase/ps4.svg" alt="ps4">
+								<img src="<?php bloginfo('template_url'); ?>/assets/img/purchase/ps4.svg" alt="ps4">
 							</a>
 						</div>
 					</div>
