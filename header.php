@@ -5,7 +5,7 @@
 	<title>mycuber</title>
 
 	<?php wp_head(); ?>
-	
+
 	<!-- <link rel="stylesheet" href="css/swiper-bundle.min.css">
 	<link rel="stylesheet" href="css/style.css"> -->
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
@@ -58,13 +58,13 @@
 			<div class="swiper mySwiper">
 				<div class="swiper-wrapper">
 				  <div class="swiper-slide">
-					<img src="img/Slider1920/s1.jpg" alt="">
+					<img src="img/Slider1920/s1.jpg" alt="slide-1">
 				  </div>
 				  <div class="swiper-slide">
-					<img src="img/Slider1920/s2.jpg" alt="">
+					<img src="img/Slider1920/s2.jpg" alt="slide-2">
 				  </div>
 				  <div class="swiper-slide">
-					<img src="img/Slider1920/s3.jpg" alt="">
+					<img src="img/Slider1920/s3.jpg" alt="slide-3">
 				  </div>
 				</div>
 			</div>

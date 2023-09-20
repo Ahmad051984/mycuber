@@ -23,8 +23,7 @@
 			
 		</footer>
 
-		<script src="js/swiper-bundle.min.js"></script>
-		<script src="js/script.js"></script>	
+		<?php wp_footer();?>
 	</div>
 
 
