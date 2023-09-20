@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html <?php language_attributes(); ?>">
 
 <head>
 	<title>mycuber</title>
@@ -8,7 +8,7 @@
 
 	<!-- <link rel="stylesheet" href="css/swiper-bundle.min.css">
 	<link rel="stylesheet" href="css/style.css"> -->
-	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<meta http-equiv="Content-type" content="text/html; <?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width">
 </head>
 
