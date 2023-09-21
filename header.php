@@ -57,15 +57,28 @@
 			</div>
 			<div class="swiper mySwiper">
 				<div class="swiper-wrapper">
-				  <div class="swiper-slide">
-					<img src="<?php bloginfo('template_url'); ?>/assets/img/Slider1920/s1.jpg" alt="slide-1">
-				  </div>
-				  <div class="swiper-slide">
-					<img src="<?php bloginfo('template_url'); ?>/assets/img/Slider1920/s2.jpg" alt="slide-2">
-				  </div>
-				  <div class="swiper-slide">
-					<img src="<?php bloginfo('template_url'); ?>/assets/img/Slider1920/s3.jpg" alt="slide-3">
-				  </div>
+
+<?php
+global $post;
+
+$myposts = get_posts([ 
+	'numberposts' => -1,
+	'category'    => 3
+]);
+
+if( $myposts ){
+	foreach( $myposts as $post ){
+		setup_postdata( $post );
+		?>
+		<!-- Вывод постов, функции цикла: the_title() и т.д. -->
+		<div class="swiper-slide">
+		<img src="<?php the_post_thumbnail_url();?>" alt="slide">
+			</div>
+		<?php 
+	}
+} 
+wp_reset_postdata(); // Сбрасываем $post
+?>
 				</div>
 			</div>
 			<div class="swiper-button-next"></div>
