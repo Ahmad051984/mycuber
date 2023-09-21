@@ -3,9 +3,7 @@
 				<div class="footer__white">
 					<div class="footer__logo">
 						<div class="footer__logo-item footer__logo-item-main-logo">
-							<a href="#">
-								<img src="<?php bloginfo('template_url'); ?>/assets/img/Logo.png" alt="logo">
-							</a>
+						<?php the_custom_logo();?>
 						</div>
 						<div class="footer__logo-item">
 							<img src="<?php bloginfo('template_url'); ?>/assets/img/CD_Projekt_logo1.svg" alt="CD_Projekt logo">

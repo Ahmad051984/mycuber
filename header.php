@@ -19,9 +19,7 @@
 				<div class="container">
 					<div class="header__row">
 						<div class="header__logo">
-							<a href="#">
-								<img src="<?php bloginfo('template_url'); ?>/assets/img/Logo.png" alt="Logo">
-							</a>
+							<?php the_custom_logo();?>
 						</div>
 						<ul class="header__icons">
 							<li class="header__items">
