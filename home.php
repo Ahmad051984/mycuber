@@ -45,17 +45,7 @@ Template Name: home
 					<div class="play__text">Играй в <span>Cyberpunk 2077</span> и получи возможность выиграть консоль <span>Xbox Series X</span> или <span>Sony PlayStation 5!</span> Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;&#41;</div>
 					<div class="play__row">
 						<form class="play__form">
-							<input class="play__name" type="text" name="name" placeholder="Как тебя зовут?">
-							<input class="play__email" type="email" name="email" placeholder="Твой е-mail">
-							<input class="play__file" id="play__file" type="file" name="screenshot">
-							<label class="play__file-lable" for="play__file"><span>Прикрепить скриншот</span> 
-								<span class="play__file-text">.png / .jpg / .pdf</span>
-							</label>
-							<button class="play__btn btn">Отправить</button>
-							<div class="play__checkbox">
-								<input class="play__check" type="checkbox" name="checkbox" id="checkbox">
-								<label for="checkbox">Согласен на обработку персональных данных</label>
-							</div>
+							<?php echo do_shortcode('[contact-form-7 id="0ec7f13" title="Контактная форма"]');?>
 						</form>
 						<div class="play__images">
 							<div class="play__image">
