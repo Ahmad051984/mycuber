@@ -65,7 +65,7 @@ Template Name: home
 					<div class="hp__row">
 						<div class="hp__main-images">
 							<div class="hp__big-image">
-								<img src="<?php bloginfo('template_url'); ?>/assets/img/block-4/monitor.png" alt="">
+								<img src="<?php the_field('hp__big-image');?>" alt="">
 							</div>
 							<div class="hp__logo-icons">
 								<div>
@@ -80,12 +80,12 @@ Template Name: home
 								</div>
 						</div>
 						<div class="hp__text">
-							<h2 class="hp__title title">Полное погружение вместе с HP</h2>
-							<p class="hp__text-description">Погрузись в современные экшен-игры с реалистичным изображением с помощью монитора с диагональю 23,8 дюйма, созданном для отображения максимально насыщенных цветов. Успевай реагировать на любые события с временем отклика 1 мс и частотой в 144 Гц!</p>
+							<h2 class="hp__title title"><?php the_field('hp__title');?></h2>
+							<p class="hp__text-description"><?php the_field('hp__text-description');?></p>
 							<ul class="hp__list">
-								<li>Яркие насыщенные цвета</li>
-								<li>Кристальная четкость изображения</li>
-								<li>Быстрые движения и плавный геймплей</li>
+								<li><?php the_field('line_1');?></li>
+								<li><?php the_field('line_2');?></li>
+								<li><?php the_field('line_3');?></li>
 							</ul>
 							<button class="hp__btn btn">Подробнее</button>
 						</div>
