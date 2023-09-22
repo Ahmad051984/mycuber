@@ -96,15 +96,15 @@ Template Name: home
 
 			<section class="purchase">
 				<div class="purchase__image">
-					<img src="<?php bloginfo('template_url'); ?>/assets/img/purchase/big-img.jpg" alt="image">
+					<img src="<?php the_field('purchase__image');?>" alt="image">
 				</div>
 				<div class="purchase__description">
-					<h2 class="purchase__title title">Купить игру<br> Cyberpunk 2077</h2>
+					<h2 class="purchase__title title"><?php the_field('purchase__title');?></h2>
 					<h3 class="purchase__subtitle">В комплект входит:</h3>
 					<ul>
-						<li>Футляр с игровыми дисками</li>
-						<li>Футляр с кодом для загрузки игры и дисками (pc)</li>
-						<li>Справочник с информацией об игровом мире</li>
+						<li><?php the_field('purchase_line_1');?></li>
+						<li><?php the_field('purchase_line_2');?></li>
+						<li><?php the_field('purchase_line_3');?></li>
 					</ul>
 					<h3 class="purchase__subtitle purchase__subtitle2">Выберите платформу:</h3>
 					<div class="purchase__platform-box">
