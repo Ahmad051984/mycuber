@@ -189,7 +189,7 @@ h6 {
 }
 .header__sticker {
   height: 369px;
-  max-width: 624px;
+  width: 624px;
   background-size: contain;
   background-repeat: no-repeat;
 }

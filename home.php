@@ -8,24 +8,24 @@ Template Name: home
 		<main class="main">
 			<section class="about">
 					<div class="container">
-						<h1 class="about__title title">Найт-Сити изменит тебя навсегда!</h1>
-						<p class="about__text"><span>Cyberpunk 2077</span> — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V, наёмника в поисках устройства, позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры своего персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя окружает.</p>
+						<h1 class="about__title title"><?php the_field('about__title');?></h1>
+						<p class="about__text"><span><?php the_field('about__text_color');?></span><?php the_field('about__text');?></p>
 						<div class="about__row">
 							<div class="about__small-images">
 								<picture>
-									<source srcset="<?php bloginfo('template_url'); ?>/assets/img/block-2/image1-320.png" type="image/png" media="(max-width: 350px)">
-									<img src="<?php bloginfo('template_url'); ?>/assets/img/block-2/image1.png" alt="sity">
+									<source srcset="<?php the_field('about__small-image-1_320');?>" type="image/png" media="(max-width: 350px)">
+									<img src="<?php the_field('about__small-image-1');?>" alt="sity">
 								</picture>
 								<picture>
-									<source srcset="<?php bloginfo('template_url'); ?>/assets/img/block-2/image2-320.png" type="image/png" media="(max-width: 350px)">
-									<img src="<?php bloginfo('template_url'); ?>/assets/img/block-2/image2.png" alt="sity">
+									<source srcset="<?php the_field('about__small-image-2_320');?>" type="image/png" media="(max-width: 350px)">
+									<img src="<?php the_field('about__small-image-2');?>" alt="sity">
 								</picture>
 							</div>
 							<div class="about__big-image">
 								<picture>
-									<source srcset="<?php bloginfo('template_url'); ?>/assets/img/block-2/image3-320.png" type="image/png" media="(max-width: 350px)">
-									<source srcset="<?php bloginfo('template_url'); ?>/assets/img/block-2/image3-1024.png" type="image/png" media="(max-width: 1350px)">
-									<img src="<?php bloginfo('template_url'); ?>/assets/img/block-2/image3.png" alt="sity">
+									<source srcset="<?php the_field('about__big-image_350');?>" type="image/png" media="(max-width: 350px)">
+									<source srcset="<?php the_field('about__big-image_1350');?>" type="image/png" media="(max-width: 1350px)">
+									<img src="<?php the_field('about__big-image');?>" alt="sity">
 								</picture>
 							</div>
 						</div>

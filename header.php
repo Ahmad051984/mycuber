@@ -23,28 +23,28 @@
 						</div>
 						<ul class="header__icons">
 							<li class="header__items">
-								<a href=""><img src="<?php bloginfo('template_url'); ?>/assets/img/icons/youtube-logo.svg" alt="youtube-logo"></a>
+								<a target="_blank" href="<?php the_field('link_youtube');?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/icons/youtube-logo.svg" alt="youtube-logo"></a>
 							</li>
 							<li class="header__items">
-								<a href=""><img src="<?php bloginfo('template_url'); ?>/assets/img/icons/vk-logo.svg" alt="vk-logo"></a>
+								<a target="_blank" href="<?php the_field('link_vk');?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/icons/vk-logo.svg" alt="vk-logo"></a>
 							</li>
 							<li class="header__items">
-								<a href=""><img src="<?php bloginfo('template_url'); ?>/assets/img/icons/facebook-logo.svg" alt="facebook-logo"></a>
+								<a target="_blank" href="<?php the_field('link_facebook');?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/icons/facebook-logo.svg" alt="facebook-logo"></a>
 							</li>
 							<li class="header__items">
-								<a href=""><img src="<?php bloginfo('template_url'); ?>/assets/img/icons/twitter-logo.svg" alt="twitter-logo"></a>
+								<a target="_blank" href="<?php the_field('link_twitter');?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/icons/twitter-logo.svg" alt="twitter-logo"></a>
 							</li>
 							<li class="header__items">
-								<a href=""><img src="<?php bloginfo('template_url'); ?>/assets/img/icons/twitch-logo.svg" alt="twitch-logo"></a>
+								<a target="_blank" href="<?php the_field('link_twitch');?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/icons/twitch-logo.svg" alt="twitch-logo"></a>
 							</li>
 							<li class="header__items">
-								<a href=""><img src="<?php bloginfo('template_url'); ?>/assets/img/icons/instagram-logo.svg" alt="instagram-logo"></a>
+								<a target="_blank" href="<?php the_field('link_instagram');?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/icons/instagram-logo.svg" alt="instagram-logo"></a>
 							</li>
 						</ul>
 					</div>
 					<div class="header__sticker-row">
 						<div class="header__sticker" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/Rectangle59.svg);">
-							<div class="header__title title">Доступно на всех платформах</div>
+							<div class="header__title title"><?php the_field('header_sticker');?></div>
 							<button class="header__btn btn">
 								<span>Узнать больше</span>
 							</button>
