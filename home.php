@@ -40,19 +40,19 @@ Template Name: home
 						<div class="play__sticker" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/block-3/sticker.svg);">
 							<span>акция</span>
 						</div>
-						<h2 class="play__title title">Играй и выигрывай!</h2>
+						<h2 class="play__title title"><?php the_field('play__title');?></h2>
 					</div>
-					<div class="play__text">Играй в <span>Cyberpunk 2077</span> и получи возможность выиграть консоль <span>Xbox Series X</span> или <span>Sony PlayStation 5!</span> Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;&#41;</div>
+					<div class="play__text"><?php the_field('play__text');?></div>
 					<div class="play__row">
 						<form class="play__form">
 							<?php echo do_shortcode('[contact-form-7 id="0ec7f13" title="Контактная форма"]');?>
 						</form>
 						<div class="play__images">
 							<div class="play__image">
-								<img src="<?php bloginfo('template_url'); ?>/assets/img/block-3/x-box.png" alt="">
+								<img src="<?php the_field('play__image-1');?>" alt="">
 							</div>
 							<div class="play__image play__image-rigth">
-								<img src="<?php bloginfo('template_url'); ?>/assets/img/block-3/PS5.png" alt="">
+								<img src="<?php the_field('play__image-2');?>" alt="">
 							</div>
 						</div>
 					</div>
